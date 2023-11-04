@@ -1367,20 +1367,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
 [5] (./q5.tex
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 25.
+(Font)              scaled to size 10.95pt on input line 9.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 28.
+(Font)              scaled to size 10.95pt on input line 12.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 28.
+(Font)              scaled to size 10.95pt on input line 12.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 28.
+(Font)              scaled to size 10.95pt on input line 12.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 30.
+(Font)              scaled to size 10.95pt on input line 14.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.40 ^^I\end{tabular}
+l.24 ^^I\end{tabular}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1388,7 +1388,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.40 ^^I\end{tabular}
+l.24 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1399,7 +1399,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.40 ^^I\end{tabular}
+l.24 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1410,7 +1410,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.40 ^^I\end{tabular}
+l.24 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1419,7 +1419,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-\endL or \endR problem (1 missing, 0 extra) detected at line 40
+\endL or \endR problem (1 missing, 0 extra) detected at line 24
 []$[]$[]
  []
 
@@ -1454,12 +1454,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20400 strings out of 492922
- 404010 string characters out of 6136751
- 553253 words of memory out of 5000000
- 24084 multiletter control sequences out of 15000+600000
+ 20401 strings out of 492922
+ 404019 string characters out of 6136751
+ 552253 words of memory out of 5000000
+ 24085 multiletter control sequences out of 15000+600000
  542171 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,69p,2343b,469s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,69p,2343b,465s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on HW.pdf (9 pages).
