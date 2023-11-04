@@ -1,35 +1,39 @@
 import random
 import matplotlib.pyplot as plt
 
-# تابعی برای تولید زمان سرویس بر اساس توزیع داده شده
-def generate_service_time():
-    rnd = random.random()
-    if rnd < 0.1:
-        return 0 + (1 - 0) * random.random()
-    elif rnd < 0.5:
-        return 1 + (2 - 1) * random.random()
-    elif rnd < 0.9:
-        return 2 + (3 - 2) * random.random()
-    else:
-        return 3 + (4 - 3) * random.random()
+# توزیع‌های زمان بین ورودها و زمان سرویس
+interarrival_distribution = {1: 0.20, 2: 0.35, 3: 0.15, 4: 0.30}
+service_time_distribution_able = {1: 0.15, 2: 0.25, 3: 0.40, 4: 0.20}
+service_time_distribution_baker = {3: 0.45, 4: 0.30, 9: 0.15, 11: 0.10}
 
-# تابعی برای تولید زمان بین ورودی‌ها بر اساس توزیع نمایی
-def generate_interarrival_time():
-    rate = 1.0 / 2.5
-    return random.expovariate(rate)
+# تابعی برای تولید زمان بین ورودها مطابق با توزیع داده شده
+def generate_interarrival_time(distribution):
+    rnd = random.random()
+    for time, probability in distribution.items():
+        if rnd < probability:
+            return time
+        rnd -= probability
+
+# تابعی برای تولید زمان سرویس برای هر سرور
+def generate_service_time(distribution):
+    rnd = random.random()
+    for time, probability in distribution.items():
+        if rnd < probability:
+            return time
+        rnd -= probability
 
 # تعداد کل مشتریان
 num_customers = 100
 
-# زمان‌های بین ورود مشتریان و زمان ورود آنها
-interarrival_times = [generate_interarrival_time() for _ in range(num_customers)]
-arrival_times = [sum(interarrival_times[:i+1]) for i in range(num_customers)]
-
 # متغیرهای مربوط به سرورها
 servers = {
-    'able': {'idle_time': 0, 'service_end': 0, 'utilization_times': []},
-    'baker': {'idle_time': 0, 'service_end': 0, 'utilization_times': []}
+    'able': {'idle_time': 0, 'service_end': 0, 'utilization_times': [], 'distribution': service_time_distribution_able},
+    'baker': {'idle_time': 0, 'service_end': 0, 'utilization_times': [], 'distribution': service_time_distribution_baker}
 }
+
+# زمان‌های بین ورود مشتریان و زمان ورود آنها
+interarrival_times = [generate_interarrival_time(interarrival_distribution) for _ in range(num_customers)]
+arrival_times = [sum(interarrival_times[:i+1]) for i in range(num_customers)]
 
 # شبیه‌سازی
 for i in range(num_customers):
@@ -39,11 +43,10 @@ for i in range(num_customers):
         server = servers[server_name]
         if current_time >= server['service_end']:
             server['idle_time'] += current_time - server['service_end']
-            service_time = generate_service_time()
+            service_time = generate_service_time(server['distribution'])
             server['service_end'] = current_time + service_time
-            server['utilization_times'].append((current_time, 1 - (server['idle_time'] / current_time)))
-        else:
-            server['utilization_times'].append((current_time, 1 - (server['idle_time'] / current_time)))
+        server['utilization_times'].append((current_time, 1 - (server['idle_time'] / current_time)))
+
 
 # تابع برای ترسیم نمودارهای مربوط به سرور
 def plot_server_utilization(server_name, server_data):
@@ -69,6 +72,6 @@ def plot_server_utilization(server_name, server_data):
     plt.tight_layout()
     plt.show()
 
-# ترسیم نمودارها برای هر سرور
+# نمودارهای استفاده و زمان بیکاری سرورها
 for name, data in servers.items():
     plot_server_utilization(name, data)
