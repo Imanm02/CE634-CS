@@ -19,7 +19,7 @@ In the "Assignments" folder, you will find the solutions to the three theoretica
 
 ## Slides
 
-The "Slides" folder contains the course slides used by Dr. Rivadeh during the lectures.
+The "Slides" folder contains the course slides used by Dr. Safaei during the lectures.
 
 ## Source
 
