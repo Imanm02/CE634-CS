@@ -63,6 +63,7 @@ def plot_server_utilization(server_name, server_data):
     plt.xlabel('Time')
     plt.ylabel('Utilization')
     plt.title(f'{server_name.capitalize()} Server Utilization Over Time')
+    plt.savefig('charts/able_utilization.png')
     plt.legend()
     
     plt.subplot(1, 2, 2)
@@ -70,11 +71,12 @@ def plot_server_utilization(server_name, server_data):
     plt.xlabel('Time')
     plt.ylabel('Idle Time Percentage')
     plt.title(f'{server_name.capitalize()} Server Idle Time Over Time')
+    plt.savefig('charts/able_idle_time.png')
     plt.legend()
     
     plt.tight_layout()
+    
     plt.show()
-    plt.savefig('charts/able_utilization.png')
 
 # تابعی برای محاسبه میانگین استفاده و زمان بیکاری
 def calculate_utilization_and_idle_time(server_data, total_time):
@@ -83,7 +85,6 @@ def calculate_utilization_and_idle_time(server_data, total_time):
     average_idle_time = 1 - average_utilization
     print(f"{server_data['name']} Average Utilization: {average_utilization:.2f}")
     print(f"{server_data['name']} Average Idle Time: {average_idle_time:.2f}")
-    plt.savefig('charts/able_idle_time.png')
 
 # نمودارهای استفاده و زمان بیکاری سرورها
 for name, data in servers.items():
