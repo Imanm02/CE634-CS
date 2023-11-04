@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:26
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1361,54 +1361,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 [][]
  []
 
-[5] (./q5.tex
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 ۱‍^^I^^I\end{tabular}
-                          
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.17 ۱‍^^I^^I\end{tabular}
-                          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.17 ۱‍^^I^^I\end{tabular}
-                          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.17 ۱‍^^I^^I\end{tabular}
-                          
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-\endL or \endR problem (1 missing, 0 extra) detected at line 17
-[]$[]$[]
- []
-
-)
+[5] (./q5.tex)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 150--150
 []  [][]
  []
