@@ -3,7 +3,7 @@ Solutions to Dr. Safaei's CE634: Computer Simulation (Sharif University of Techn
 
 ## Overview
 
-This repository contains solutions to the assignments, course slides, and other useful resources for the CE474: Software Engineering course at Sharif University of Technology, Fall 2023, taught by Dr. Rivadeh.
+This repository contains solutions to the assignments, course slides, and other useful resources for the CE634: Computer Simulation course at Sharif University of Technology, Fall 2023, taught by Dr. Safaei.
 
 ## Table of Contents
 
