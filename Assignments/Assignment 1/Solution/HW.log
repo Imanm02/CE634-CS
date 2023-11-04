@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1418,9 +1418,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 [][]
  []
 
-(./q6.tex)
+(./q6.tex
+File: pic1.jpg Graphic file (type bmp)
+<pic1.jpg>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 154--154
-[][]  [][]
+[]  [][]
  []
 
 
@@ -1428,14 +1435,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][]
  []
 
-[6] (./HW.aux) ) 
+[6] [7] (./HW.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20367 strings out of 492922
- 403142 string characters out of 6136751
+ 20374 strings out of 492922
+ 403206 string characters out of 6136751
  551253 words of memory out of 5000000
- 24063 multiletter control sequences out of 15000+600000
+ 24067 multiletter control sequences out of 15000+600000
  540567 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,69p,2343b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on HW.pdf (6 pages).
+Output written on HW.pdf (7 pages).
