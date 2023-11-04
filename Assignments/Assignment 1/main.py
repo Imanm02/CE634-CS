@@ -47,20 +47,6 @@ for i in range(num_customers):
             server['service_end'] = current_time + service_time
         server['utilization_times'].append((current_time, 1 - (server['idle_time'] / current_time)))
 
-# تابعی برای محاسبه میانگین استفاده و زمان بیکاری
-def calculate_utilization_and_idle_time(server_data, total_time):
-    total_utilization = sum(util for _, util in server_data['utilization_times'])
-    average_utilization = total_utilization / len(server_data['utilization_times'])
-    average_idle_time = 1 - average_utilization
-    print(f"{server_data['name']} Average Utilization: {average_utilization:.2f}")
-    print(f"{server_data['name']} Average Idle Time: {average_idle_time:.2f}")
-
-# نمودارهای استفاده و زمان بیکاری سرورها
-for name, data in servers.items():
-    data['name'] = name  # اضافه کردن نام سرور به داده‌ها برای استفاده در تابع
-    plot_server_utilization(name, data)
-    calculate_utilization_and_idle_time(data, arrival_times[-1])
-
 # تابع برای ترسیم نمودارهای مربوط به سرور
 def plot_server_utilization(server_name, server_data):
     times, util = zip(*server_data['utilization_times'])
@@ -84,6 +70,20 @@ def plot_server_utilization(server_name, server_data):
     
     plt.tight_layout()
     plt.show()
+
+# تابعی برای محاسبه میانگین استفاده و زمان بیکاری
+def calculate_utilization_and_idle_time(server_data, total_time):
+    total_utilization = sum(util for _, util in server_data['utilization_times'])
+    average_utilization = total_utilization / len(server_data['utilization_times'])
+    average_idle_time = 1 - average_utilization
+    print(f"{server_data['name']} Average Utilization: {average_utilization:.2f}")
+    print(f"{server_data['name']} Average Idle Time: {average_idle_time:.2f}")
+
+# نمودارهای استفاده و زمان بیکاری سرورها
+for name, data in servers.items():
+    data['name'] = name  # اضافه کردن نام سرور به داده‌ها برای استفاده در تابع
+    plot_server_utilization(name, data)
+    calculate_utilization_and_idle_time(data, arrival_times[-1])
 
 # نمودارهای استفاده و زمان بیکاری سرورها
 for name, data in servers.items():
