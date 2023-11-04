@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:21
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1203,7 +1203,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--134
 [][]
  []
 
-(./q2.tex [2])
+(./q2.tex [2]
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 39.
+)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 138--138
 [][]  [][]
  []
@@ -1226,8 +1229,6 @@ l.5 \begin{enumerate}[الف)]
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 6.
 [3])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 142--142
 []  [][]
