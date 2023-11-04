@@ -1,116 +1,74 @@
 import random
-import queue
+import matplotlib.pyplot as plt
 
-# توابع برای تولید زمان بین ورود مشتریان و زمان سرویس هر سرور
-def generate_interarrival():
-    rand = random.random()
-    if rand < 0.20:
-        return 1
-    elif rand < 0.55:
-        return 2
-    elif rand < 0.70:
-        return 3
+# تابعی برای تولید زمان سرویس بر اساس توزیع داده شده
+def generate_service_time():
+    rnd = random.random()
+    if rnd < 0.1:
+        return 0 + (1 - 0) * random.random()
+    elif rnd < 0.5:
+        return 1 + (2 - 1) * random.random()
+    elif rnd < 0.9:
+        return 2 + (3 - 2) * random.random()
     else:
-        return 4
+        return 3 + (4 - 3) * random.random()
 
-def generate_service_time_able():
-    rand = random.random()
-    if rand < 0.15:
-        return 1
-    elif rand < 0.40:
-        return 2
-    elif rand < 0.80:
-        return 3
-    else:
-        return 4
+# تابعی برای تولید زمان بین ورودی‌ها بر اساس توزیع نمایی
+def generate_interarrival_time():
+    rate = 1.0 / 2.5
+    return random.expovariate(rate)
 
-def generate_service_time_baker():
-    rand = random.random()
-    if rand < 0.45:
-        return 3
-    elif rand < 0.75:
-        return 4
-    elif rand < 0.90:
-        return 9
-    else:
-        return 11
+# تعداد کل مشتریان
+num_customers = 100
 
-# کلاس برای نگه داشتن اطلاعات سرور
-class Server:
-    def __init__(self, name):
-        self.name = name
-        self.end_time = 0
-        self.queue = queue.Queue()
-        self.idle_time = 0
-        self.total_service_time = 0
-        self.total_customers_served = 0
+# زمان‌های بین ورود مشتریان و زمان ورود آنها
+interarrival_times = [generate_interarrival_time() for _ in range(num_customers)]
+arrival_times = [sum(interarrival_times[:i+1]) for i in range(num_customers)]
 
-    # به‌روزرسانی زمان خالی بودن سرور
-    def update_idle_time(self, current_time):
-        if current_time >= self.end_time:
-            self.idle_time += current_time - self.end_time
+# متغیرهای مربوط به سرورها
+servers = {
+    'able': {'idle_time': 0, 'service_end': 0, 'utilization_times': []},
+    'baker': {'idle_time': 0, 'service_end': 0, 'utilization_times': []}
+}
 
-    # افزودن مشتری به صف و تنظیم زمان پایان سرویس
-    def add_customer(self, customer, current_time):
-        self.queue.put(customer)
-        if current_time >= self.end_time:
-            self.end_time = current_time + customer['service_time']
+# شبیه‌سازی
+for i in range(num_customers):
+    current_time = arrival_times[i]
+    
+    for server_name in servers:
+        server = servers[server_name]
+        if current_time >= server['service_end']:
+            server['idle_time'] += current_time - server['service_end']
+            service_time = generate_service_time()
+            server['service_end'] = current_time + service_time
+            server['utilization_times'].append((current_time, 1 - (server['idle_time'] / current_time)))
         else:
-            self.end_time += customer['service_time']
-        self.total_service_time += customer['service_time']
-        self.total_customers_served += 1
+            server['utilization_times'].append((current_time, 1 - (server['idle_time'] / current_time)))
 
-    # محاسبه‌ی میانگین زمان سرویس دهی
-    def average_service_time(self):
-        return self.total_service_time / self.total_customers_served if self.total_customers_served else 0
+# تابع برای ترسیم نمودارهای مربوط به سرور
+def plot_server_utilization(server_name, server_data):
+    times, util = zip(*server_data['utilization_times'])
+    idle_times = [1 - u for u in util]
+    
+    plt.figure(figsize=(12, 6))
+    
+    plt.subplot(1, 2, 1)
+    plt.plot(times, util, label=f'{server_name.capitalize()} Utilization')
+    plt.xlabel('Time')
+    plt.ylabel('Utilization')
+    plt.title(f'{server_name.capitalize()} Server Utilization Over Time')
+    plt.legend()
+    
+    plt.subplot(1, 2, 2)
+    plt.plot(times, idle_times, label=f'{server_name.capitalize()} Idle Time')
+    plt.xlabel('Time')
+    plt.ylabel('Idle Time Percentage')
+    plt.title(f'{server_name.capitalize()} Server Idle Time Over Time')
+    plt.legend()
+    
+    plt.tight_layout()
+    plt.show()
 
-    # محاسبه‌ی میانگین زمان خالی بودن
-    def utilization(self, total_time):
-        return 1 - (self.idle_time / total_time)
-
-# تابع اصلی برای شبیه سازی
-def simulate():
-    current_time = 0
-    total_simulation_time = 120  # مجموع زمان شبیه‌سازی به دقیقه
-
-    # ایجاد دو سرور Able و Baker
-    able = Server('Able')
-    baker = Server('Baker')
-
-    # متغیرهای برای محاسبه زمان انتظار
-    total_wait_time = 0
-    total_customers = 0
-
-    while current_time < total_simulation_time:
-        interarrival_time = generate_interarrival()
-        current_time += interarrival_time
-
-        service_time_able = generate_service_time_able()
-        service_time_baker = generate_service_time_baker()
-
-        able.update_idle_time(current_time)
-        baker.update_idle_time(current_time)
-
-        # انتخاب سرور برای سرویس دهی به مشتری جدید
-        if able.end_time <= baker.end_time:
-            able.add_customer({'arrival_time': current_time, 'service_time': service_time_able}, current_time)
-            total_wait_time += max(0, able.end_time - current_time - service_time_able)
-        else:
-            baker.add_customer({'arrival_time': current_time, 'service_time': service_time_baker}, current_time)
-            total_wait_time += max(0, baker.end_time - current_time - service_time_baker)
-
-        total_customers += 1
-
-    # محاسبه میانگین زمان انتظار
-    average_wait_time = total_wait_time / total_customers if total_customers else 0
-
-    print(f"Able Utilization: {able.utilization(total_simulation_time)}")
-    print(f"Baker Utilization: {baker.utilization(total_simulation_time)}")
-    print(f"Average Wait Time: {average_wait_time} minutes")
-    print(f"Able Average Service Time: {able.average_service_time()} minutes")
-    print(f"Baker Average Service Time: {baker.average_service_time()} minutes")
-    print(f"Queue Length for Able: {able.queue.qsize()}")
-    print(f"Queue Length for Baker: {baker.queue.qsize()}")
-
-# اجرای تابع شبیه سازی
-simulate()
+# ترسیم نمودارها برای هر سرور
+for name, data in servers.items():
+    plot_server_utilization(name, data)
