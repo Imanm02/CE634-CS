@@ -18,13 +18,17 @@
 
 \section*{جواب سوال ۱}
 
-\section*{سیستم کتابخانه}
+\section*{پیام‌رسان}
 \begin{itemize}
-	\item \textbf{موجودیت‌ها:} کتاب، کاربر
-	\item \textbf{ویژگی‌ها:} کتاب: عنوان، نویسنده - کاربر: نام، شماره عضویت
-	\item \textbf{فعالیت‌ها:} امانت دادن، برگشت دادن
-	\item \textbf{رویدادها:} داخلی: اتمام مهلت امانت کتاب - خارجی: تخریب کتاب
-	\item \textbf{متغیرهای حالت:} تعداد کتاب‌های موجود، تعداد کاربران فعال
+	\item \textbf{موجودیت‌ها (Entities):} کاربران، پیام‌ها
+	\item \textbf{ویژگی‌ها (Attributes):} نام کاربری، زمان ارسال پیام
+	\item \textbf{فعالیت‌ها (Activities):} ارسال پیام، خواندن پیام
+	\item \textbf{رویدادها (Events):} 
+	\begin{itemize}
+		\item \textbf{رویداد داخلی (\lr{Endogenous Event}:} دریافت تاییدیه خواندن پیام
+		\item \textbf{رویداد خارجی (\lr{Exogenous Event}:} دریافت پیام جدید از یک کاربر دیگر
+	\end{itemize}
+	\item \textbf{متغیرهای حالت \lr{State Variables}:} تعداد پیام‌های خوانده نشده، وضعیت آنلاین یا آفلاین بودن کاربر
 \end{itemize}
 
 \section*{سیستم بانکی}
@@ -36,12 +40,28 @@
 	\item \textbf{متغیرهای حالت:} تعداد حساب‌ها، مجموع موجودی‌ها
 \end{itemize}
 
-\section*{سیستم آموزشی}
+\subsection*{سایت رزرو هتل}
 \begin{itemize}
-	\item \textbf{موجودیت‌ها:} دانشجو، درس
-	\item \textbf{ویژگی‌ها:} دانشجو: نام، شماره دانشجویی - درس: نام درس، کد درس
-	\item \textbf{فعالیت‌ها:} ثبت‌نام، امتحان
-	\item \textbf{رویدادها:} داخلی: افزایش میانگین نمرات یک دانشجو - خارجی: تعطیلی مدارس به علت شرایط طبیعی
-	\item \textbf{متغیرهای حالت:} تعداد دانشجویان ثبت‌نام‌شده، تعداد دروس ارائه‌شده
+	\item \textbf{موجودیت‌ها (Entities):} مشتریان، اتاق‌های هتل
+	\item \textbf{ویژگی‌ها (Attributes):} تاریخ ورود و خروج، قیمت اتاق
+	\item \textbf{فعالیت‌ها (Activities):} جستجو برای اتاق، رزرو اتاق
+	\item \textbf{رویدادها (Events):}
+	\begin{itemize}
+		\item \textbf{رویداد داخلی (Endogenous Event):} انقضای زمان رزرو اتاق
+		\item \textbf{رویداد خارجی (Exogenous Event):} تغییر قیمت اتاق به دلیل تغییرات فصلی
+	\end{itemize}
+	\item \textbf{متغیرهای حالت (State Variables):} تعداد اتاق‌های موجود، تعداد رزروهای انجام‌شده
 \end{itemize}
 
+\subsection*{کارخانه‌ی ساخت مبل}
+\begin{itemize}
+	\item \textbf{موجودیت‌ها (Entities):} خط تولید، مبل‌ها
+	\item \textbf{ویژگی‌ها (Attributes):} مدل مبل، زمان تولید
+	\item \textbf{فعالیت‌ها (Activities):} برش چوب، روکش‌کاری
+	\item \textbf{رویدادها (Events):}
+	\begin{itemize}
+		\item \textbf{رویداد داخلی (Endogenous Event):} خرابی ماشین آلات
+		\item \textbf{رویداد خارجی (Exogenous Event):} تغییر در تقاضای بازار
+	\end{itemize}
+	\item \textbf{متغیرهای حالت (State Variables):} تعداد مبل‌های در دست ساخت، میزان مواد اولیه موجود
+\end{itemize}
