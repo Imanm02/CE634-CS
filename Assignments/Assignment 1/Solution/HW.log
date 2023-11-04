@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:31
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1371,7 +1371,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 [][]
  []
 
-(./q6.tex [6])
+(./q6.tex [6]
+
+LaTeX Warning: File `pic1.png' not found on input line 36.
+
+! Unable to load picture or PDF file 'pic1.png'.
+<to be read again> 
+                   }
+l.36 ^^I\includegraphics{pic1.png}
+                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+File: pic1.png Graphic file (type bmp)
+<pic1.png>
+
+LaTeX Warning: File `pic2.png' not found on input line 42.
+
+! Unable to load picture or PDF file 'pic2.png'.
+<to be read again> 
+                   }
+l.42 ^^I\includegraphics{pic2.png}
+                                  
+The requested image couldn't be read because
+it was not a recognized image format.
+
+File: pic2.png Graphic file (type bmp)
+<pic2.png>
+)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 154--154
 [][]  [][]
  []
@@ -1381,12 +1408,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][]
  []
 
-[7] (./HW.aux) ) 
+[7] (./HW.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 20370 strings out of 492922
- 403194 string characters out of 6136751
+ 20381 strings out of 492922
+ 403303 string characters out of 6136751
  551253 words of memory out of 5000000
- 24064 multiletter control sequences out of 15000+600000
+ 24071 multiletter control sequences out of 15000+600000
  540575 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,69p,2343b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
