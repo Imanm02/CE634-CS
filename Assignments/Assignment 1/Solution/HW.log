@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:17
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1228,7 +1228,7 @@ If that doesn't work, type  X <return>  to quit.
 
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 6.
-)
+[3])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 142--142
 []  [][]
  []
@@ -1238,7 +1238,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--142
 [][]
  []
 
-[3] (./q4.tex
+(./q4.tex
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 10.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be

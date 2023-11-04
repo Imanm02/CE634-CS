@@ -25,19 +25,23 @@
 	\item \textbf{فعالیت‌ها (Activities):} ارسال پیام، خواندن پیام
 	\item \textbf{رویدادها (Events):} 
 	\begin{itemize}
-		\item \textbf{رویداد داخلی \lr{Endogenous Event}:} دریافت تاییدیه خواندن پیام
-		\item \textbf{رویداد خارجی \lr{Exogenous Event}:} دریافت پیام جدید از یک کاربر دیگر
+		\item \textbf{رویداد داخلی \lr{(Endogenous Event)}:} دریافت تاییدیه خواندن پیام
+		\item \textbf{رویداد خارجی \lr{(Exogenous Event)}:} دریافت پیام جدید از یک کاربر دیگر
 	\end{itemize}
 	\item \textbf{متغیرهای حالت \lr{State Variables}:} تعداد پیام‌های خوانده نشده، وضعیت آنلاین یا آفلاین بودن کاربر
 \end{itemize}
 
-\section*{سیستم بانکی}
+\section*{بانک}
 \begin{itemize}
 	\item \textbf{موجودیت‌ها:} حساب، مشتری
 	\item \textbf{ویژگی‌ها:} حساب: شماره حساب، موجودی - مشتری: نام، شناسه مشتری
-	\item \textbf{فعالیت‌ها:} واریز، برداشت
-	\item \textbf{رویدادها:} داخلی: کم شدن موجودی زیر حد مجاز - خارجی: تغییرات نرخ ارز
-	\item \textbf{متغیرهای حالت:} تعداد حساب‌ها، مجموع موجودی‌ها
+	\item \textbf{فعالیت‌ها:} 
+	\item \textbf{رویدادها (Events):}
+	\begin{itemize}
+		\item \textbf{رویداد داخلی \lr{(Endogenous Event)} :} تغییرات نرخ ارز
+		\item \textbf{رویداد خارجی \lr{(Exogenous Event)} :} کم شدن موجودی زیر حد مجاز
+	\end{itemize}
+	\item \textbf{متغیرهای حالت:} 
 \end{itemize}
 
 \subsection*{سایت رزرو هتل}
@@ -47,10 +51,10 @@
 	\item \textbf{فعالیت‌ها (Activities) :} جستجو برای اتاق، رزرو اتاق
 	\item \textbf{رویدادها (Events):}
 	\begin{itemize}
-		\item \textbf{رویداد داخلی (Endogenous Event) :} انقضای زمان رزرو اتاق
-		\item \textbf{رویداد خارجی (Exogenous Event) :} تغییر قیمت اتاق به دلیل تغییرات فصلی
+		\item \textbf{رویداد داخلی \lr{(Endogenous Event)} :} انقضای زمان رزرو اتاق
+		\item \textbf{رویداد خارجی \lr{(Exogenous Event)} :} تغییر قیمت اتاق به دلیل تغییرات فصلی
 	\end{itemize}
-	\item \textbf{متغیرهای حالت (State Variables) :} تعداد اتاق‌های موجود، تعداد رزروهای انجام‌شده
+	\item \textbf{متغیرهای حالت \lr{(State Variables)} :} تعداد اتاق‌های موجود، تعداد رزروهای انجام‌شده
 \end{itemize}
 
 \subsection*{کارخانه‌ی ساخت مبل}
@@ -60,8 +64,8 @@
 	\item \textbf{فعالیت‌ها (Activities) :} برش چوب، روکش‌کاری
 	\item \textbf{رویدادها (Events) :}
 	\begin{itemize}
-		\item \textbf{رویداد داخلی (Endogenous Event) :} خرابی ماشین آلات
-		\item \textbf{رویداد خارجی (Exogenous Event) :} تغییر در تقاضای بازار
+		\item \textbf{رویداد داخلی \lr{(Endogenous Event)} :} خرابی ماشین آلات
+		\item \textbf{رویداد خارجی \lr{(Exogenous Event)} :} تغییر در تقاضای بازار
 	\end{itemize}
-	\item \textbf{متغیرهای حالت (State Variables) :} تعداد مبل‌های در دست ساخت، میزان مواد اولیه موجود
+	\item \textbf{متغیرهای حالت \lr{(State Variables)} :} تعداد مبل‌های در دست ساخت، میزان مواد اولیه موجود
 \end{itemize}
