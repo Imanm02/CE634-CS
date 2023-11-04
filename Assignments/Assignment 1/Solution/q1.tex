@@ -33,15 +33,19 @@
 
 \section*{بانک}
 \begin{itemize}
-	\item \textbf{موجودیت‌ها:} حساب، مشتری
-	\item \textbf{ویژگی‌ها:} حساب: شماره حساب، موجودی - مشتری: نام، شناسه مشتری
-	\item \textbf{فعالیت‌ها:} 
+	\item \textbf{موجودیت‌ها (Entities):} حساب، مشتری
+	\item \textbf{ویژگی‌ها (Attributes):} 
+	\begin{itemize}
+		\item حساب: شماره حساب، موجودی
+		\item مشتری: نام، شناسه مشتری
+	\end{itemize}
+	\item \textbf{فعالیت‌ها (Activities):} واریز و برداشت پول، انتقال وجه، درخواست وام
 	\item \textbf{رویدادها (Events):}
 	\begin{itemize}
-		\item \textbf{رویداد داخلی \lr{(Endogenous Event)} :} تغییرات نرخ ارز
-		\item \textbf{رویداد خارجی \lr{(Exogenous Event)} :} کم شدن موجودی زیر حد مجاز
+		\item \textbf{رویداد داخلی (Endogenous Event):} تغییر نرخ بهره بانکی
+		\item \textbf{رویداد خارجی (Exogenous Event):} ورود یک چک جدید برای وصول
 	\end{itemize}
-	\item \textbf{متغیرهای حالت:} 
+	\item \textbf{متغیرهای حالت (State Variables):} تعداد کل حساب‌ها، مجموع موجودی‌های بانک
 \end{itemize}
 
 \subsection*{سایت رزرو هتل}
