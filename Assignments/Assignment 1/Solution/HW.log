@@ -1037,7 +1037,7 @@ as'XB Niloofar' on input line 101.
 \symnew@mathbf@font@digits=\mathgroup7
 \symnew@mathit@font@digits=\mathgroup8
 \symnew@mathrm@font@digits=\mathgroup9
-No file HW.aux.
+(./HW.aux)
 \openout1 = `HW.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
@@ -1054,6 +1054,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
 LaTeX Font Info:    ... okay on input line 124.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
 LaTeX Font Info:    ... okay on input line 124.
+
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
@@ -1140,16 +1141,16 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/bx/n' will be
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.125 \makeHead{۲۳ مهر}
-                       
+l.125 \makeHead{۱۳ آبان}
+                        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.125 \makeHead{۲۳ مهر}
-                       
+l.125 \makeHead{۱۳ آبان}
+                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1159,8 +1160,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.125 \makeHead{۲۳ مهر}
-                       
+l.125 \makeHead{۱۳ آبان}
+                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1170,8 +1171,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.125 \makeHead{۲۳ مهر}
-                       
+l.125 \makeHead{۱۳ آبان}
+                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1428,8 +1429,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
 [5] (./HW.aux) ) 
 Here is how much of TeX's memory you used:
- 20362 strings out of 492922
- 403008 string characters out of 6136751
+ 20364 strings out of 492922
+ 403022 string characters out of 6136751
  551253 words of memory out of 5000000
  24061 multiletter control sequences out of 15000+600000
  540559 words of font info for 95 fonts, out of 8000000 for 9000
