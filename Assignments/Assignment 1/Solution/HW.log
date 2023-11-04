@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:42
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1369,7 +1369,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.17 ^^I\end{tabular}
+l.38 ^^I\end{tabular}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1377,7 +1377,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.17 ^^I\end{tabular}
+l.38 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1388,7 +1388,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.17 ^^I\end{tabular}
+l.38 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1399,7 +1399,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.17 ^^I\end{tabular}
+l.38 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1408,7 +1408,70 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-\endL or \endR problem (1 missing, 0 extra) detected at line 17
+\endL or \endR problem (1 missing, 0 extra) detected at line 38
+[]$[]$[]
+ []
+
+
+Overfull \hbox (71.20856pt too wide) in paragraph at lines 26--39
+ [][][][] 
+ []
+
+[6]
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 43.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 46.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 46.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
+(Font)              scaled to size 10.95pt on input line 46.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/bx/n' will be
+(Font)              scaled to size 10.95pt on input line 48.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.57 ^^I\end{tabular}
+                     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.57 ^^I\end{tabular}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.57 ^^I\end{tabular}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.57 ^^I\end{tabular}
+                     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+\endL or \endR problem (1 missing, 0 extra) detected at line 57
 []$[]$[]
  []
 
@@ -1422,13 +1485,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 [][]
  []
 
-(./q6.tex [6]
+(./q6.tex [7]
 File: pic1.jpg Graphic file (type bmp)
 <pic1.jpg>
- [7]
 File: pic2.jpg Graphic file (type bmp)
 <pic2.jpg>
-)
+) [8]
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 154--154
 [][]  [][]
  []
@@ -1438,18 +1500,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][]
  []
 
-[8] (./HW.aux)
+[9] (./HW.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20383 strings out of 492922
- 403322 string characters out of 6136751
- 551253 words of memory out of 5000000
- 24073 multiletter control sequences out of 15000+600000
- 540575 words of font info for 97 fonts, out of 8000000 for 9000
+ 20399 strings out of 492922
+ 403922 string characters out of 6136751
+ 553253 words of memory out of 5000000
+ 24084 multiletter control sequences out of 15000+600000
+ 542163 words of font info for 108 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,69p,2343b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on HW.pdf (8 pages).
+Output written on HW.pdf (9 pages).
