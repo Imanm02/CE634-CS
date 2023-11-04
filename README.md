@@ -15,7 +15,7 @@ This repository contains solutions to the assignments, course slides, and other 
 
 ## Assignments
 
-In the "Assignments" folder, you will find the solutions to the three theoretical assignments given during the course.
+In the "Assignments" folder, you will find the solutions to the assignments given during the course.
 
 ## Slides
 
