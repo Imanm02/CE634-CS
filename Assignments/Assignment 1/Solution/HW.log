@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:19
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 04:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1418,10 +1418,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 [][]
  []
 
-(./q6.tex
-LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/bx/it' will be
-(Font)              scaled to size 12.0pt on input line 18.
- [6])
+(./q6.tex [6])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 154--154
 [][]  [][]
  []
@@ -1433,8 +1430,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 
 [7] (./HW.aux) ) 
 Here is how much of TeX's memory you used:
- 20369 strings out of 492922
- 403243 string characters out of 6136751
+ 20370 strings out of 492922
+ 403194 string characters out of 6136751
  551253 words of memory out of 5000000
  24064 multiletter control sequences out of 15000+600000
  540575 words of font info for 97 fonts, out of 8000000 for 9000
