@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:28
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 03:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1218,20 +1218,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 138--138
 
 (./q3.tex
 
-! Package enumitem Error: الف) undefined.
+! Package enumitem Error: الف undefined.
 
 See the enumitem package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \begin{enumerate}[الف)]
-                           
+l.5 \begin{enumerate}[الف]
+                          
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [3])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 142--142
-[]  [][]
+[][]  [][]
  []
 
 
@@ -1361,7 +1361,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 [][]
  []
 
-(./q5.tex
+[5] (./q5.tex
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -1428,12 +1428,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][]
  []
 
-[5] [6] (./HW.aux) ) 
+[6] (./HW.aux) ) 
 Here is how much of TeX's memory you used:
- 20366 strings out of 492922
- 403116 string characters out of 6136751
- 550253 words of memory out of 5000000
- 24062 multiletter control sequences out of 15000+600000
+ 20367 strings out of 492922
+ 403142 string characters out of 6136751
+ 551253 words of memory out of 5000000
+ 24063 multiletter control sequences out of 15000+600000
  540567 words of font info for 96 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,69p,2343b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
