@@ -1,5 +1,6 @@
 import random
 import matplotlib.pyplot as plt
+import os
 
 # توزیع‌های زمان بین ورودها و زمان سرویس
 interarrival_distribution = {1: 0.20, 2: 0.35, 3: 0.15, 4: 0.30}
@@ -47,6 +48,9 @@ for i in range(num_customers):
             server['service_end'] = current_time + service_time
         server['utilization_times'].append((current_time, 1 - (server['idle_time'] / current_time)))
 
+if not os.path.exists('charts'):
+    os.makedirs('charts')
+
 # تابع برای ترسیم نمودارهای مربوط به سرور
 def plot_server_utilization(server_name, server_data):
     times, util = zip(*server_data['utilization_times'])
@@ -70,6 +74,7 @@ def plot_server_utilization(server_name, server_data):
     
     plt.tight_layout()
     plt.show()
+    plt.savefig('charts/able_utilization.png')
 
 # تابعی برای محاسبه میانگین استفاده و زمان بیکاری
 def calculate_utilization_and_idle_time(server_data, total_time):
@@ -78,6 +83,7 @@ def calculate_utilization_and_idle_time(server_data, total_time):
     average_idle_time = 1 - average_utilization
     print(f"{server_data['name']} Average Utilization: {average_utilization:.2f}")
     print(f"{server_data['name']} Average Idle Time: {average_idle_time:.2f}")
+    plt.savefig('charts/able_idle_time.png')
 
 # نمودارهای استفاده و زمان بیکاری سرورها
 for name, data in servers.items():
