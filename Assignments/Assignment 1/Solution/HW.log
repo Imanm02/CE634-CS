@@ -1378,16 +1378,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--150
 (./q6.tex [6]
 File: pic1.jpg Graphic file (type bmp)
 <pic1.jpg>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 File: pic2.jpg Graphic file (type bmp)
 <pic2.jpg>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-)
+) [7]
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 154--154
 [][]  [][]
  []
@@ -1397,16 +1390,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--154
 [][]
  []
 
-[7] [8] (./HW.aux)
+[8] (./HW.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20381 strings out of 492922
- 403303 string characters out of 6136751
+ 20382 strings out of 492922
+ 403313 string characters out of 6136751
  551253 words of memory out of 5000000
- 24071 multiletter control sequences out of 15000+600000
+ 24072 multiletter control sequences out of 15000+600000
  540575 words of font info for 97 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,69p,2343b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
