@@ -1,5 +1,5 @@
 # CE474-SW
-Solutions to Dr. Rivadeh's CE634: Software Engineering (Sharif University of Technology - Fall 2023) Assignments
+Solutions to Dr. Safaei's CE634: Computer Simulation (Sharif University of Technology - Fall 2023) Assignments
 
 ## Overview
 
