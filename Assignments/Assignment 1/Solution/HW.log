@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 05:09
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2022.12.8)  5 NOV 2023 05:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1367,20 +1367,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--146
 
 [5] (./q5.tex
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 9.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 12.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 12.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 12.
+(Font)              scaled to size 10.0pt on input line 13.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(0)/bx/n' will be
-(Font)              scaled to size 10.95pt on input line 14.
+(Font)              scaled to size 10.0pt on input line 13.
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ^^I\end{tabular}
+l.23 ^^I\end{tabular}
                      
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1388,7 +1382,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.24 ^^I\end{tabular}
+l.23 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1399,7 +1393,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.24 ^^I\end{tabular}
+l.23 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1410,7 +1404,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.24 ^^I\end{tabular}
+l.23 ^^I\end{tabular}
                      
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1419,59 +1413,8 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-\endL or \endR problem (1 missing, 0 extra) detected at line 24
+\endL or \endR problem (1 missing, 0 extra) detected at line 23
 []$[]$[]
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 ^^I\end{tabular}
-                     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.43 ^^I\end{tabular}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.43 ^^I\end{tabular}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.43 ^^I\end{tabular}
-                     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-\endL or \endR problem (1 missing, 0 extra) detected at line 43
-[]$[]$[]
- []
-
-
-Overfull \hbox (13.19452pt too wide) in paragraph at lines 31--44
- [][][][] 
  []
 
 [6])
@@ -1505,12 +1448,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 20401 strings out of 492922
- 404019 string characters out of 6136751
- 553253 words of memory out of 5000000
- 24085 multiletter control sequences out of 15000+600000
- 542171 words of font info for 109 fonts, out of 8000000 for 9000
+ 20389 strings out of 492922
+ 403609 string characters out of 6136751
+ 552253 words of memory out of 5000000
+ 24076 multiletter control sequences out of 15000+600000
+ 540599 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,69p,2343b,476s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,69p,2343b,491s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on HW.pdf (9 pages).
