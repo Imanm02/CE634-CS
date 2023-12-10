@@ -28,5 +28,5 @@ nx.draw(G, pos, with_labels=True, node_size=2000, node_color='lightblue', font_s
 nx.draw_networkx_edge_labels(G, pos, edge_labels=edge_labels, font_size=12)
 
 # نمایش گراف
-plt.title("نمودار زنجیره مارکوف")
+plt.title("Markov Chain Plot")
 plt.show()
