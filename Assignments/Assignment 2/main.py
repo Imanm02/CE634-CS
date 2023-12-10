@@ -35,7 +35,6 @@ plt.ylabel('Probability of Chicken Kebab')
 plt.title('Probability of Chicken Kebab over Time')
 plt.show()
 
-
 def simulate_markov_chain(transition_matrix, N, num_simulations):
     """
     شبیه‌سازی روند زنجیره مارکوف برای N روز و num_simulations بار
