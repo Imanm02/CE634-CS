@@ -55,8 +55,8 @@ def simulate_markov_chain(transition_matrix, N, num_simulations):
 simulation_results_777 = simulate_markov_chain(transition_matrix, 777, 1000)
 approx_probability_chicken_kebab_day_777 = simulation_results_777[1] # جوجه کباب دومین غذا است
 
-print(simulation_results_777)
-print(approx_probability_chicken_kebab_day_777)
+print(simulation_results_777) # = [0.381 0.367 0.114 0.138]
+print(approx_probability_chicken_kebab_day_777) # = 0.367
 
 # د) مقایسه نتایج محاسباتی و شبیه‌سازی
 simulation_results_777_10000 = simulate_markov_chain(transition_matrix, 777, 10000)
