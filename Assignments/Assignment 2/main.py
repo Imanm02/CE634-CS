@@ -2,7 +2,7 @@ import numpy as np
 
 def calculate_state_probability(p0, transition_matrix, N, s):
     """
-    محاسبه احتمال استیت s در روز Nام با استفاده از بردار احتمال اولیه p0 و ماتریس انتقال
+    محاسبه احتمال استیت s در روز N ام با استفاده از بردار احتمال اولیه p0 و ماتریس انتقال
     """
     current_probabilities = np.array(p0)
     for _ in range(N):
