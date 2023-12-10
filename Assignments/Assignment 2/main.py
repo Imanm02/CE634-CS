@@ -1,4 +1,6 @@
 import numpy as np
+import markov
+
 
 def calculate_state_probability(p0, transition_matrix, N, s):
     """
