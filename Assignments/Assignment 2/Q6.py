@@ -22,7 +22,7 @@ transition_matrix = [
 # محاسبه احتمال انتخاب جوجه کباب در روز 777ام
 probability_chicken_kebab_day_777 = calculate_state_probability(initial_probabilities, transition_matrix, 777, 1)  # جوجه کباب دومین غذا است
 
-print(probability_chicken_kebab_day_777)
+print(probability_chicken_kebab_day_777) # = 0.3750000000000001
 
 days = range(10, 10001, 10) # روزهای ۱۰ تا ۱۰۰۰۰
 
