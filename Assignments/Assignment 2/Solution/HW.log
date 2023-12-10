@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  10 DEC 2023 23:06
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  10 DEC 2023 23:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1077,7 +1077,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--139
 [][]
  []
 
-(q4.tex)
+(q4.tex [3])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 143--143
 [][]  [][]
  []
@@ -1087,7 +1087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][]
  []
 
-(q5.tex [3]
+(q5.tex
 File: pic1.jpg Graphic file (type bmp)
 <pic1.jpg>
 
@@ -1095,7 +1095,7 @@ Overfull \hbox (55.91785pt too wide) in paragraph at lines 17--19
  [][][][][][] 
  []
 
-)
+[4])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 147--147
 [][]  [][]
  []
@@ -1115,11 +1115,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
 [][]
  []
 
-[4] [5] (HW.aux)
+[5] (HW.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
  12435 strings out of 409722
