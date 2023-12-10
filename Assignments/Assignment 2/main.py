@@ -1,49 +1,4 @@
 import numpy as np
-import markov
-
-P = [
-    [0.3, 0.5, 0.1, 0.1],
-    [0.5, 0.3, 0.1, 0.1],
-    [0.2, 0.2, 0.2, 0.4],
-    [0.4, 0.4, 0.2, 0]
-]
-
-pi = [0.4, 0.3, 0.2, 0.1]
-
-mc = markov.MarkovChain(P, pi)
-
-kabab_count = 0
-kebab_count = 0
-fillet_count = 0
-veggie_count = 0
-
-# Simulate the behavior of the student over time
-for i in range(10):
-    # Get the current state of the student
-    state = mc.get_state()
-    print("Day", i+1, ":", state)
-    # Update the count for the current meal
-    if state == "kabab":
-        kabab_count += 1
-    elif state == "kebab":
-        kebab_count += 1
-    elif state == "fillet":
-        fillet_count += 1
-    else:
-        veggie_count += 1
-    # Move to the next state according to the transition matrix
-    mc.move_to_next_state()
-
-# Calculate the probability of each meal being chosen on a given day
-kabab_prob = kabab_count / 10
-kebab_prob = kebab_count / 10
-fillet_prob = fillet_count / 10
-veggie_prob = veggie_count / 10
-
-print("Probability of kabab:", kabab_prob)
-print("Probability of kebab:", kebab_prob)
-print("Probability of fillet:", fillet_prob)
-print("Probability of veggie:", veggie_prob)
 
 def calculate_state_probability(p0, transition_matrix, N, s):
     """
