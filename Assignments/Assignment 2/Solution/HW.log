@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  10 DEC 2023 21:08
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  10 DEC 2023 21:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1087,7 +1087,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][]
  []
 
-(q5.tex)
+[2] (q5.tex)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 147--147
 []  [][]
  []
@@ -1097,7 +1097,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][]
  []
 
-[2] (q6.tex)
+(q6.tex)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 151--151
 []  [][]
  []
@@ -1120,6 +1120,6 @@ Here is how much of TeX's memory you used:
  34099 multiletter control sequences out of 15000+600000
  566306 words of font info for 109 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,10n,99p,2401b,339s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,10n,99p,2401b,379s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on HW.pdf (3 pages).
