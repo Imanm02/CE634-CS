@@ -19,8 +19,7 @@ transition_matrix = [
 ]
 
 # محاسبه احتمال انتخاب جوجه کباب در روز 777ام
-probabilities_day_777 = calculate_state_probability(initial_probabilities, transition_matrix, 777, 1)
-probability_chicken_kebab_day_777 = probabilities_day_777[1] # جوجه کباب دومین غذا است
+probability_chicken_kebab_day_777 = calculate_state_probability(initial_probabilities, transition_matrix, 777, 1) # جوجه کباب دومین غذا است
 
 import matplotlib.pyplot as plt
 
