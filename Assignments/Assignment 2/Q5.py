@@ -26,7 +26,7 @@ labels = nx.get_edge_attributes(G, 'weight')
 nx.draw(G, pos, with_labels=True, node_color='lightblue', node_size=2000)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
 
-plt.title('نمودار زنجیره مارکوف')
+plt.title('Markov Chain Plot')
 plt.show()
 
 # محاسبه P(X1 = 3, X2 = 2, X3 = 1)
