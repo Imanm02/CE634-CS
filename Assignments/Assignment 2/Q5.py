@@ -30,6 +30,6 @@ plt.title('Markov Chain Plot')
 plt.show()
 
 # محاسبه P(X1 = 3, X2 = 2, X3 = 1)
-# از آنجایی که P(X1 = 1) = P(X1 = 2) = P(X1 = 3) = 1/3 است
-probability_x1_3_x2_2_x3_1 = (1/3) * P[2, 1] * P[1, 0]
+# با احتساب P(X1 = 1) = P(X1 = 2) = 1/4 و P(X1 = 3) = 1/2
+probability_x1_3_x2_2_x3_1 = (1/2) * P[2, 1] * P[1, 0]
 probability_x1_3_x2_2_x3_1
