@@ -71,12 +71,16 @@ print(f"Probability of choosing Chicken Kebab on day 777: {probability_chicken_k
 
 print(f"Approximate probability of choosing Chicken Kebab on day 777 (Simulation with 1000 runs): {approx_probability_chicken_kebab_day_777}")
 # Approximate probability of choosing Chicken Kebab on day 777 (Simulation with 1000 runs): 0.367
+
 print(f"Approximate probability of choosing Chicken Kebab on day 777 (Simulation with 10000 runs): {approx_probability_chicken_kebab_day_777_10000}")
+# Approximate probability of choosing Chicken Kebab on day 777 (Simulation with 10000 runs): 0.3774
+
 print(f"Error in simulation with 1000 runs: {error_1000}")
+
+
 print(f"Error in simulation with 10000 runs: {error_10000}")
 
 
 
-Approximate probability of choosing Chicken Kebab on day 777 (Simulation with 10000 runs): 0.3774
 Error in simulation with 1000 runs: 0.008000000000000118
 Error in simulation with 10000 runs: 0.002399999999999902
