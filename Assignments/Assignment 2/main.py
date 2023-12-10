@@ -32,3 +32,20 @@ plt.xlabel('روز')
 plt.ylabel('احتمال انتخاب جوجه کباب')
 plt.title('احتمال انتخاب جوجه کباب در روزهای مختلف')
 plt.show()
+
+def simulate_markov_chain(transition_matrix, N, num_simulations):
+    """
+    شبیه‌سازی روند زنجیره مارکوف برای N روز و num_simulations بار
+    """
+    num_states = len(transition_matrix)
+    state_counts = np.zeros(num_states)
+    for _ in range(num_simulations):
+        current_state = np.random.choice(num_states)
+        for _ in range(N):
+            current_state = np.random.choice(num_states, p=transition_matrix[current_state])
+        state_counts[current_state] += 1
+    return state_counts / num_simulations
+
+# شبیه‌سازی برای روز 777ام و 1000 بار
+simulation_results_777 = simulate_markov_chain(transition_matrix, 777, 1000)
+approx_probability_chicken_kebab_day_777 = simulation_results_777[1] # جوجه کباب دومین غذا است
