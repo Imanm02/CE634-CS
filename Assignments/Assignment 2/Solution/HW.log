@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  10 DEC 2023 20:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  10 DEC 2023 20:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -847,11 +847,7 @@ I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
-(HW.aux
-
-LaTeX Warning: Label `fig:label4' multiply defined.
-
-)
+(HW.aux)
 \openout1 = `HW.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
@@ -963,7 +959,7 @@ Missing character: There is no م in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ر in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ی in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ن in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ۲ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ۱ in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ا in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ی in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no م in font [lmroman12-bold]:mapping=tex-text;!
@@ -984,23 +980,24 @@ Missing character: There is no ل in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no و in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no د in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ۱ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ۹ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ۳ in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no آ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ذ in font [lmroman12-bold]:mapping=tex-text;!
-Missing character: There is no ر in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-bold]:mapping=tex-text;!
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.124 \makeHead{۱۹ آذر}
-                       
+l.124 ^^I\makeHead{۱۳ آبان}
+                           
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Missing } inserted.
 <inserted text> 
                 }
-l.124 \makeHead{۱۹ آذر}
-                       
+l.124 ^^I\makeHead{۱۳ آبان}
+                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1010,8 +1007,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.124 \makeHead{۱۹ آذر}
-                       
+l.124 ^^I\makeHead{۱۳ آبان}
+                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1021,8 +1018,8 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.124 \makeHead{۱۹ آذر}
-                       
+l.124 ^^I\makeHead{۱۳ آبان}
+                           
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1049,6 +1046,484 @@ Missing character: There is no و in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ا in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ل in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ۱ in font [lmroman12-bold]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ئ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ، in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ف in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no پ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ج in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no خ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ‌ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ‌ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no گ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ش in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no خ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ص in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ‌ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ش in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ‌ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no خ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ط in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ، in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ، in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ف in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no غ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no آ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no گ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ئ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ق in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ع in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ف in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no پ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ط in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ‌ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ش in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ق in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no گ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ، in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no آ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ق in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ع in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ش in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ش in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ، in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ز in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no خ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ص in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ف in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no پ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ف in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no خ in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ک in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ج in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
+Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
@@ -1476,65 +1951,6 @@ Missing character: There is no ‌ in font [lmroman12-regular]:mapping=tex-text;
 Missing character: There is no آ in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
 Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ب in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ص in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ئ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ح in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ت in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ل in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ف in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ر in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ی in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no پ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no س in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no و in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ج in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no م in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ش in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ه in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ‌ in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ا in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no ن in font [lmroman12-regular]:mapping=tex-text;!
-Missing character: There is no د in font [lmroman12-regular]:mapping=tex-text;!
 )
 Overfull \hbox (2.608pt too wide) in paragraph at lines 133--133
 [][]  [][]
@@ -1620,7 +2036,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--145
 [][]
  []
 
-(q5.tex
+! Undefined control sequence.
+\setpersianfont ...@font \normalfont \persianfont 
+                                                  \fontsize \f@size \f@basel...
+l.147 ^^I^^I\item{
+                  \textbf{}} \input{q5.tex}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\@oddfoot ->\reset@font 
+                        \hfil \thepage \hfil 
+l.147 ^^I^^I\item{
+                  \textbf{}} \input{q5.tex}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[1
+
+] (q5.tex
 Missing character: There is no س in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no و in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ا in font [lmroman12-bold]:mapping=tex-text;!
@@ -1645,31 +2085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 149--149
 [][]
  []
 
-! Undefined control sequence.
-\setpersianfont ...@font \normalfont \persianfont 
-                                                  \fontsize \f@size \f@basel...
-l.151 ^^I\item{
-               \textbf{}} \input{q6.tex}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\@oddfoot ->\reset@font 
-                        \hfil \thepage \hfil 
-l.151 ^^I\item{
-               \textbf{}} \input{q6.tex}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[1
-
-] (q6.tex
+(q6.tex
 Missing character: There is no س in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no و in font [lmroman12-bold]:mapping=tex-text;!
 Missing character: There is no ا in font [lmroman12-bold]:mapping=tex-text;!
@@ -1747,16 +2163,12 @@ and I'll forget about whatever was undefined.
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 12374 strings out of 409722
- 245831 string characters out of 5780279
- 1926164 words of memory out of 5000000
- 34091 multiletter control sequences out of 15000+600000
+ 12373 strings out of 409722
+ 245819 string characters out of 5780279
+ 1928164 words of memory out of 5000000
+ 34090 multiletter control sequences out of 15000+600000
  566090 words of font info for 82 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,11n,99p,2401b,300s stack positions out of 10000i,1000n,20000p,200000b,200000s
