@@ -28,6 +28,8 @@ days = range(10, 10001, 10) # روزهای ۱۰ تا ۱۰۰۰۰
 # احتمالات انتخاب جوجه کباب در روزهای مختلف
 probabilities_chicken_kebab = [calculate_state_probability(initial_probabilities, transition_matrix, day, 1) for day in days]
 
+print(probabilities_chicken_kebab)
+
 # نمایش نمودار
 plt.plot(days, probabilities_chicken_kebab)
 plt.xlabel('Day')
