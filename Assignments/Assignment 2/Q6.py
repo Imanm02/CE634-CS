@@ -1,4 +1,5 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 def calculate_state_probability(p0, transition_matrix, N, s):
     """
@@ -20,8 +21,8 @@ transition_matrix = [
 
 # محاسبه احتمال انتخاب جوجه کباب در روز 777ام
 probability_chicken_kebab_day_777 = calculate_state_probability(initial_probabilities, transition_matrix, 777, 1)  # جوجه کباب دومین غذا است
+probabilities_chicken_kebab_new = [calculate_state_probability(initial_probabilities, transition_matrix, day, 1) for day in days]
 
-import matplotlib.pyplot as plt
 
 days = range(10, 10001, 10) # روزهای ۱۰ تا ۱۰۰۰۰
 
