@@ -1,6 +1,16 @@
 import numpy as np
 import markov
 
+P = [
+    [0.3, 0.5, 0.1, 0.1],
+    [0.5, 0.3, 0.1, 0.1],
+    [0.2, 0.2, 0.2, 0.4],
+    [0.4, 0.4, 0.2, 0]
+]
+
+pi = [0.4, 0.3, 0.2, 0.1]
+
+mc = markov.MarkovChain(P, pi)
 
 def calculate_state_probability(p0, transition_matrix, N, s):
     """
