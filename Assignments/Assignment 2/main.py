@@ -10,7 +10,7 @@ def calculate_state_probability(p0, transition_matrix, N, s):
     return current_probabilities[s]
 
 # تعریف بردار احتمال اولیه و ماتریس انتقال
-initial_probabilities = [0.3, 0.2, 0.3, 0.2]
+initial_probabilities = [0.4, 0.3, 0.2, 0.1]
 transition_matrix = [
     [0.3, 0.5, 0.1, 0.1],
     [0.5, 0.3, 0.1, 0.1],
