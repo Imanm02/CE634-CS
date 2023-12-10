@@ -1,75 +1,13 @@
 \section*{سوال ۱}
 
-برای هر یک از سیستم‌های زیر حداقل دو نمونه برای موجودیت‌ها 
-\lr{Entities}
-ویژگی‌ها 
-\lr{Attributes}
-فعالیت‌ها 
-\lr{Activities}
-رویدادها 
-\lr{Events}
-و متغیرهای حالت 
-\lr{State Variables}
-نام ببرید. در بخش رویدادها، یک رویداد داخلی 
-\lr{Endogenous Event}
-و یک رویداد خارجی 
-\lr{Exogenous Event}
-باید ذکر شود.
+
 
 \section*{جواب سوال ۱}
 
-\section*{پیام‌رسان}
-\begin{itemize}
-	\item \textbf{موجودیت‌ها (Entities):} کاربران، پیام‌ها
-	\item \textbf{ویژگی‌ها (Attributes):} نام کاربری، زمان ارسال پیام
-	\item \textbf{فعالیت‌ها (Activities):} ارسال پیام، خواندن پیام
-	\item \textbf{رویدادها (Events):} 
-	\begin{itemize}
-		\item \textbf{رویداد داخلی \lr{(Endogenous Event)}:} دریافت تاییدیه خواندن پیام
-		\item \textbf{رویداد خارجی \lr{(Exogenous Event)}:} دریافت پیام جدید از یک کاربر دیگر
-	\end{itemize}
-	\item \textbf{متغیرهای حالت \lr{State Variables}:} تعداد پیام‌های خوانده نشده، وضعیت آنلاین یا آفلاین بودن کاربر
-\end{itemize}
+برای محاسبه متوسط زمان تولید اولین نان در هر دو سناریو:
 
-\section*{بانک}
-\begin{itemize}
-	\item \textbf{موجودیت‌ها (Entities):} حساب، مشتری
-	\item \textbf{ویژگی‌ها (Attributes):} 
-	\begin{itemize}
-		\item حساب: شماره حساب، موجودی
-		\item مشتری: نام، شناسه مشتری
-	\end{itemize}
-	\item \textbf{فعالیت‌ها (Activities):} واریز و برداشت پول، انتقال وجه، درخواست وام
-	\item \textbf{رویدادها (Events):}
-	\begin{itemize}
-		\item \textbf{رویداد داخلی (Endogenous Event):} تغییر نرخ بهره بانکی
-		\item \textbf{رویداد خارجی (Exogenous Event):} ورود یک چک جدید برای وصول
-	\end{itemize}
-	\item \textbf{متغیرهای حالت (State Variables):} تعداد کل حساب‌ها، مجموع موجودی‌های بانک
-\end{itemize}
+1. \( \mathbb{E}[T_1] \) (زمان برای تولید اولین نان، بدون توجه به نوع آن): متوسط زمان تولید اولین نان، خواه بربری یا سنگک، برابر است با \( \frac{1}{\lambda_b + \lambda_s} \). این به دلیل آن است که میزان وقوع رویداد در هر دو فرایند پواسون را می‌توان به صورت ترکیبی در نظر گرفت.
 
-\subsection*{سایت رزرو هتل}
-\begin{itemize}
-	\item \textbf{موجودیت‌ها (Entities) :} مشتریان، اتاق‌های هتل
-	\item \textbf{ویژگی‌ها (Attributes) :} تاریخ ورود و خروج، قیمت اتاق
-	\item \textbf{فعالیت‌ها (Activities) :} جستجو برای اتاق، رزرو اتاق
-	\item \textbf{رویدادها (Events):}
-	\begin{itemize}
-		\item \textbf{رویداد داخلی \lr{(Endogenous Event)} :} انقضای زمان رزرو اتاق
-		\item \textbf{رویداد خارجی \lr{(Exogenous Event)} :} تغییر قیمت اتاق به دلیل تغییرات فصلی
-	\end{itemize}
-	\item \textbf{متغیرهای حالت \lr{(State Variables)} :} تعداد اتاق‌های موجود، تعداد رزروهای انجام‌شده
-\end{itemize}
+2. \( \mathbb{E}[T_2] \) (زمان برای تولید حداقل یک نان بربری و یک نان سنگک): متوسط زمان لازم برای تولید حداقل یک نان از هر نوع برابر است با \( \frac{\lambda_s}{\lambda_b(\lambda_b + \lambda_s)} \)، به شرطی که نرخ‌های \( \lambda_b \) و \( \lambda_s \) مثبت و متمایز باشند. این فرمول بر اساس خصوصیات توزیع‌های نمایی مستقل که مربوط به زمان‌های انتظار برای هر فرایند پواسون هستند، به دست می‌آید.
 
-\subsection*{کارخانه‌ی ساخت مبل}
-\begin{itemize}
-	\item \textbf{موجودیت‌ها (Entities) :} خط تولید، مبل‌ها
-	\item \textbf{ویژگی‌ها (Attributes) :} مدل مبل، زمان تولید
-	\item \textbf{فعالیت‌ها (Activities) :} برش چوب، روکش‌کاری
-	\item \textbf{رویدادها (Events) :}
-	\begin{itemize}
-		\item \textbf{رویداد داخلی \lr{(Endogenous Event)} :} خرابی ماشین آلات
-		\item \textbf{رویداد خارجی \lr{(Exogenous Event)} :} تغییر در تقاضای بازار
-	\end{itemize}
-	\item \textbf{متغیرهای حالت \lr{(State Variables)} :} تعداد مبل‌های در دست ساخت، میزان مواد اولیه موجود
-\end{itemize}
+این محاسبات بر اساس اصول تئوری احتمال و فرایندهای پواسون انجام شده‌اند.
