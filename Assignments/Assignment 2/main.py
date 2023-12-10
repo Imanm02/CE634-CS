@@ -56,3 +56,17 @@ approx_probability_chicken_kebab_day_777 = simulation_results_777[1] # جوجه 
 
 print(simulation_results_777)
 print(approx_probability_chicken_kebab_day_777)
+
+# د) مقایسه نتایج محاسباتی و شبیه‌سازی
+simulation_results_777_10000 = simulate_markov_chain(transition_matrix, 777, 10000)
+approx_probability_chicken_kebab_day_777_10000 = simulation_results_777_10000[1]
+
+# مقایسه خطای دو شبیه‌سازی
+error_1000 = abs(probability_chicken_kebab_day_777 - approx_probability_chicken_kebab_day_777)
+error_10000 = abs(probability_chicken_kebab_day_777 - approx_probability_chicken_kebab_day_777_10000)
+
+print(f"Probability of choosing Chicken Kebab on day 777: {probability_chicken_kebab_day_777}")
+print(f"Approximate probability of choosing Chicken Kebab on day 777 (Simulation with 1000 runs): {approx_probability_chicken_kebab_day_777}")
+print(f"Approximate probability of choosing Chicken Kebab on day 777 (Simulation with 10000 runs): {approx_probability_chicken_kebab_day_777_10000}")
+print(f"Error in simulation with 1000 runs: {error_1000}")
+print(f"Error in simulation with 10000 runs: {error_10000}")
