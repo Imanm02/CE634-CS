@@ -30,9 +30,9 @@ probabilities_chicken_kebab = [calculate_state_probability(initial_probabilities
 
 # نمایش نمودار
 plt.plot(days, probabilities_chicken_kebab)
-plt.xlabel('روز')
-plt.ylabel('احتمال انتخاب جوجه کباب')
-plt.title('احتمال انتخاب جوجه کباب در روزهای مختلف')
+plt.xlabel('Day')
+plt.ylabel('Probability of Chicken Kebab')
+plt.title('Probability of Chicken Kebab over Time')
 plt.show()
 
 
