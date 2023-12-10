@@ -51,3 +51,6 @@ def simulate_markov_chain(transition_matrix, N, num_simulations):
 # شبیه‌سازی برای روز 777ام و 1000 بار
 simulation_results_777 = simulate_markov_chain(transition_matrix, 777, 1000)
 approx_probability_chicken_kebab_day_777 = simulation_results_777[1] # جوجه کباب دومین غذا است
+
+print(simulation_results_777)
+print(approx_probability_chicken_kebab_day_777)
