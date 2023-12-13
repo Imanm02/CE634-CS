@@ -30,7 +30,7 @@ In the "Notes" folder, you will find the notes and cheat sheets made for the exa
 
 ## TA-Workshops
 
-In the "TA-Workshops" folder, you will find the solutions to the practices given at the TA-Workshops during the course.
+In the "TA-Workshops" folder, you will find the solutions to the practices given at the TA workshops during the course.
 
 ## Slides
 
