@@ -9,6 +9,9 @@ This repository contains solutions to the assignments, course slides, and other 
 
 - [Overview](#overview)
 - [Assignments](#assignments)
+- [Exams](#exams)
+- [Notes](#notes)
+- [TA-Workshops](#ta-workshops)
 - [Slides](#slides)
 - [Source](#source)
 - [Maintainer](#Maintainer)
@@ -16,6 +19,18 @@ This repository contains solutions to the assignments, course slides, and other 
 ## Assignments
 
 In the "Assignments" folder, you will find the solutions to the assignments given during the course.
+
+## Exams
+
+In the "Exams" folder, you will find the solutions to the exams given during the last year's course.
+
+## Notes
+
+In the "Notes" folder, you will find the notes and cheat sheets made for the exams given during the course.
+
+## TA-Workshops
+
+In the "TA-Workshops" folder, you will find the solutions to the practices given at the TA-Workshops during the course.
 
 ## Slides
 
