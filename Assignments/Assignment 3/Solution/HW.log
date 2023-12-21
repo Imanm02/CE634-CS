@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  22 DEC 2023 02:45
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  22 DEC 2023 02:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,6 +1021,17 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
 (Font)              scaled to size 17.28pt on input line 1.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
+)
+Overfull \hbox (1.95313pt too wide) in paragraph at lines 135--135
+[]  [][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[][]
+ []
+
+(q2.tex
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
 (Font)              scaled to size 8.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
@@ -1049,17 +1060,7 @@ LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
 (Font)              scaled to size 8.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
 (Font)              scaled to size 6.0pt on input line 3.
-)
-Overfull \hbox (1.95313pt too wide) in paragraph at lines 135--135
-[][]  [][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 135--135
-[][]
- []
-
-(q2.tex [1
+ [1
 
 ])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 139--139
@@ -1094,10 +1095,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][]
  []
 
-(q5.tex [4]
+(q5.tex
 File: pic1.jpg Graphic file (type bmp)
 <pic1.jpg>
-)
+ [4])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 151--151
 [][]  [][]
  []
@@ -1118,12 +1119,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12444 strings out of 409722
- 249923 string characters out of 5780279
- 1933164 words of memory out of 5000000
- 34129 multiletter control sequences out of 15000+600000
- 566306 words of font info for 109 fonts, out of 8000000 for 9000
+ 12447 strings out of 409722
+ 250065 string characters out of 5780279
+ 1931164 words of memory out of 5000000
+ 34130 multiletter control sequences out of 15000+600000
+ 566314 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 86i,10n,99p,2401b,380s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 86i,10n,99p,2401b,448s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on HW.pdf (6 pages).
