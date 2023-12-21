@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  22 DEC 2023 03:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  22 DEC 2023 03:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1090,10 +1090,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][]
  []
 
-(q4.tex
+(q4.tex [3]
 File: pic2.jpg Graphic file (type bmp)
 <pic2.jpg>
-) [3]
+)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 147--147
 [][]  [][]
  []
@@ -1103,10 +1103,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][]
  []
 
-(q5.tex
+(q5.tex [4]
 File: pic1.jpg Graphic file (type bmp)
 <pic1.jpg>
- [4])
+)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 151--151
 [][]  [][]
  []
