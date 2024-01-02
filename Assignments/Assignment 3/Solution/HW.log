@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  22 DEC 2023 03:04
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  2 JAN 2024 14:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1041,38 +1041,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--135
 
 (q2.tex [1
 
-]
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' in size <12> not availab
-le
-(Font)              Font shape `TU/XBNiloofar(1)/b/n' tried instead on input li
-ne 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' in size <8> not availabl
-e
-(Font)              Font shape `TU/XBNiloofar(1)/b/n' tried instead on input li
-ne 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' in size <6> not availabl
-e
-(Font)              Font shape `TU/XBNiloofar(1)/b/n' tried instead on input li
-ne 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 8.0pt on input line 3.
-LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
-(Font)              scaled to size 6.0pt on input line 3.
-)
+])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 139--139
-[][]  [][]
+[]  [][]
  []
 
 
@@ -1080,7 +1051,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--139
 [][]
  []
 
-(q3.tex [2])
+(q3.tex
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/n' will be
+(Font)              scaled to size 6.0pt on input line 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' in size <12> not availab
+le
+(Font)              Font shape `TU/XBNiloofar(1)/b/n' tried instead on input li
+ne 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
+(Font)              scaled to size 12.0pt on input line 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' in size <8> not availabl
+e
+(Font)              Font shape `TU/XBNiloofar(1)/b/n' tried instead on input li
+ne 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
+(Font)              scaled to size 8.0pt on input line 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/bx/n' in size <6> not availabl
+e
+(Font)              Font shape `TU/XBNiloofar(1)/b/n' tried instead on input li
+ne 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/b/n' will be
+(Font)              scaled to size 6.0pt on input line 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
+(Font)              scaled to size 8.0pt on input line 13.
+LaTeX Font Info:    Font shape `TU/XBNiloofar(1)/m/it' will be
+(Font)              scaled to size 6.0pt on input line 13.
+)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 143--143
 [][]  [][]
  []
@@ -1090,12 +1090,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--143
 [][]
  []
 
-(q4.tex [3]
-File: pic2.jpg Graphic file (type bmp)
-<pic2.jpg>
-)
+(q4.tex)
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 147--147
-[][]  [][]
+[]  [][]
  []
 
 
@@ -1103,7 +1100,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][]
  []
 
-(q5.tex [4]
+(q5.tex [2]
 File: pic1.jpg Graphic file (type bmp)
 <pic1.jpg>
 )
@@ -1116,7 +1113,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
 [][]
  []
 
-(q6.tex [5]) [6] (HW.aux)
+[3] (q6.tex) [4] [5] (HW.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -1127,12 +1124,12 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 12451 strings out of 409722
- 250271 string characters out of 5780279
+ 12440 strings out of 409722
+ 250093 string characters out of 5780279
  1931164 words of memory out of 5000000
- 34132 multiletter control sequences out of 15000+600000
+ 34122 multiletter control sequences out of 15000+600000
  566330 words of font info for 112 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  86i,10n,99p,2401b,435s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on HW.pdf (6 pages).
+Output written on HW.pdf (5 pages).
