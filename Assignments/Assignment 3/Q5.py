@@ -1,22 +1,21 @@
-from sympy import symbols, solve
+from math import factorial
 
-# تعریف متغیرها
-λ = 1000  # نرخ ورود (خودروها در ساعت)
-μ1 = 1200  # نرخ سرویس دهی برای باجه اتوماتیک (خودروها در ساعت)
-μ2 = 600   # نرخ سرویس دهی برای هر یک از دو باجه سنتی (خودروها در ساعت)
-ρ1 = λ / μ1  # نرخ استفاده برای باجه اتوماتیک
-ρ2 = λ / (2 * μ2)  # نرخ استفاده برای دو باجه سنتی
+# مقادیر برای دو باجه سنتی
+lambda_ = 1000  # نرخ ورودی خودروها
+mu = 600  # نرخ خدمت دهی هر باجه
+c = 2  # تعداد باجه‌ها
 
-# محاسبه زمان انتظار مورد انتظار در حالت پایدار برای هر دو سناریو
-# برای M/M/1
-W1 = symbols('W1')
-equation1 = W1 - 1 / (μ1 - λ)
-expected_waiting_time_automated = solve(equation1, W1)[0]
+# محاسبه نرخ استفاده برای هر باجه
+rho = lambda_ / (c * mu)
 
-# برای M/M/2
-W2 = symbols('W2')
-equation2 = W2 - 1 / (2 * μ2 - λ)
-expected_waiting_time_manual = solve(equation2, W2)[0]
+# محاسبه P0
+P0 = sum([(c * rho)**k / factorial(k) for k in range(c)]) + (c * rho)**c / (factorial(c) * (1 - rho))
+P0 = 1 / P0
 
-print(expected_waiting_time_automated)
-print(expected_waiting_time_manual)
+# محاسبه زمان انتظار
+W = P0 * rho / (c * mu * (1 - rho)**2) + 1 / mu
+W_hour = W  # زمان انتظار در ساعت
+W_seconds = W * 3600  # تبدیل زمان انتظار به ثانیه
+
+print(W_hour, W_seconds)
+# 0.00393939393939394 14.181818181818183
