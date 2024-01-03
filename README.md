@@ -13,6 +13,7 @@ This repository contains solutions to the assignments, course slides, and other 
 - [Notes](#notes)
 - [TA-Workshops](#ta-workshops)
 - [Slides](#slides)
+- [Project](#project)
 - [Source](#source)
 - [Maintainer](#Maintainer)
 
@@ -35,6 +36,10 @@ In the "TA-Workshops" folder, you will find the solutions to the practices given
 ## Slides
 
 The "Slides" folder contains the course slides used by Dr. Safaei during the lectures.
+
+## Project
+
+The "Project" folder contains the course project document given during the course.
 
 ## Source
 
