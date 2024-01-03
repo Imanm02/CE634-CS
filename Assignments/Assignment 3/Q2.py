@@ -15,7 +15,7 @@ expected_frequencies[-1] += len(random_numbers) - sum(expected_frequencies)
 
 chi_square_statistic, chi_square_p_value = stats.chisquare(observed_frequencies, expected_frequencies)
 
-print(ks_statistic)
-print(ks_p_value)
-print(chi_square_statistic)
-print(chi_square_p_value)
+print(ks_statistic)         # 0.13
+print(ks_p_value)           # 0.8455768560016379
+print(chi_square_statistic) # 5.0
+print(chi_square_p_value)   # 0.8343082601934075
