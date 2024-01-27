@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  27 JAN 2024 14:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (MiKTeX 23.10.12) (preloaded format=xelatex 2023.11.6)  27 JAN 2024 14:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1088,9 +1088,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--147
 [][]
  []
 
-(q5.tex)
+(q5.tex [4])
 Overfull \hbox (1.95313pt too wide) in paragraph at lines 151--151
-[]  [][]
+[][]  [][]
  []
 
 
@@ -1098,7 +1098,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 151--151
 [][]
  []
 
-[4] (q6.tex [5]) [6] (HW.aux)
+(q6.tex [5]) [6] (HW.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
@@ -1107,7 +1107,7 @@ L3 programming layer <2023-11-01>
 Here is how much of TeX's memory you used:
  12422 strings out of 409722
  249681 string characters out of 5780279
- 1930164 words of memory out of 5000000
+ 1932164 words of memory out of 5000000
  34108 multiletter control sequences out of 15000+600000
  566314 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
