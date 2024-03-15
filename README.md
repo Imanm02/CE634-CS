@@ -9,7 +9,7 @@ This repository contains solutions to the assignments, course slides, and other 
 
 - [Overview](#overview)
 - [Assignments](#assignments)
-- [Exams](#exams)
+- [Exam](#exam)
 - [Notes](#notes)
 - [TA-Workshops](#ta-workshops)
 - [Slides](#slides)
@@ -21,9 +21,9 @@ This repository contains solutions to the assignments, course slides, and other 
 
 In the "Assignments" folder, you will find the solutions to the assignments given during the course.
 
-## Exams
+## Exam
 
-In the "Exams" folder, you will find the solutions to the exams given during the last year's course.
+In the "Exam" folder, you will find the solutions to the exams given during the last year's course.
 
 ## Notes
 
